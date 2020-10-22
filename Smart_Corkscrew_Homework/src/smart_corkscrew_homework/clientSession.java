@@ -14,10 +14,7 @@ import java.rmi.server.Operation;
  * Neptun code: VY6V8S
  */
 class clientSession {
-    
-     // I need to keep working on the logic  to be able to get the program to find a bluetooth device 
 
-    
     static HeaderSet createHeaderSet() {
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
@@ -32,9 +29,6 @@ class clientSession {
 
     static void close() {
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
-    }
-
-    private clientSession() {
     }
     
 }

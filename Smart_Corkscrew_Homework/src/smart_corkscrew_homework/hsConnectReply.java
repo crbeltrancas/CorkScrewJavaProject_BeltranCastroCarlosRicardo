@@ -13,13 +13,8 @@ package smart_corkscrew_homework;
  */
 class hsConnectReply {
 
-     // I need to keep working on the logic  to be able to get the program to find a bluetooth device 
-    
     static boolean getResponseCode() {
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
-    }
-
-    private hsConnectReply() {
     }
     
 }
