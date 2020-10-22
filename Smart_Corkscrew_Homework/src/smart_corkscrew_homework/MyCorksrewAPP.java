@@ -18,5 +18,11 @@ public class MyCorksrewAPP {
         YougotTaste -- All Information regarding scanned Bottle
 */
         MobileConnectConfig mobileConnectConfig = new MobileConnectConfig();
+
+    private static class MobileConnectConfig {
+
+        public MobileConnectConfig() {
+        }
+    }
     } 
 }

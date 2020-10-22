@@ -9,6 +9,7 @@ import java.awt.Component;
 import java.awt.event.KeyEvent;
 import java.awt.event.MouseEvent;
 import javax.swing.MenuSelectionManager;
+import static smart_corkscrew_homework.Smart_Corkscrew_Homework.main;
 
 /**
   *Smart Corkscrew Homework. 
@@ -17,6 +18,9 @@ import javax.swing.MenuSelectionManager;
  * Neptun code: VY6V8S
  */
 class MenuElement {
+
+    MenuElement(String main_Menu) {
+    }
     MenuElement main = new MenuElement( "Main Menu" ) {
             
         main.addChild( new MenuElement( "Find my corkscrew", menu1);
@@ -31,27 +35,18 @@ class MenuElement {
          // Show the Main Menu, this will make the Main Menu as the current screen
         menulist.showMenu( main );
 
-        @Override
-        public void processMouseEvent(MouseEvent event, MenuElement[] path, MenuSelectionManager manager) {
-            throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
-        }
-
-        @Override
         public void processKeyEvent(KeyEvent event, MenuElement[] path, MenuSelectionManager manager) {
             throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
         }
 
-        @Override
         public void menuSelectionChanged(boolean isIncluded) {
             throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
         }
 
-        @Override
         public MenuElement[] getSubElements() {
             throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
         }
 
-        @Override
         public Component getComponent() {
             throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
         }
